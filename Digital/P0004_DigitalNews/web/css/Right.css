@@ -1,0 +1,36 @@
+.right {
+    width: 30%;
+    height: auto;
+    padding-right: 70px;
+    padding-left: 15px;
+    border-left: dashed 1px #e0e0e0;
+}
+.shortdes{
+    padding-right: 30px;
+    font-size: 12px;
+}
+.txtInput {
+    width: 130px;
+    border: dashed 1px;
+    height: 20px;
+}
+.txtSubmit {
+    border: none;
+    background-color: transparent;  
+    font-weight: bold;
+    color: #42554e;
+}
+.list{
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.list a {
+    padding-right: 20px;
+    color: #42554e;
+}
+.footer {
+    background: url(../images/footer.jpg);
+    width: 886px;
+    height: 78px;
+}
+

@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    background-color: #E7E7E7;
+}
+.container {
+    width: 886px;
+    height: auto;
+    margin: 0 auto;
+}
+.main {
+    background: url(../images/bg.jpg);
+    width: 886px;    
+    height: auto;
+    display: flex;
+}
+.left {
+    width: 70%;
+    height: auto;
+    padding-left: 80px;
+    padding-right: 30px;
+}
+.mainerror{
+    background: url(../images/bg.jpg);
+    width: 886px;    
+    height: 500px;
+    display: flex;
+}
+.error h1{
+    color: #42554e;
+    padding-bottom: 15px;
+    font-weight: bold;
+    padding-top: 15px;
+}

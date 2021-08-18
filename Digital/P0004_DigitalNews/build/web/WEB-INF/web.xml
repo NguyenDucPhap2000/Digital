@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>SearchControl</servlet-name>
+        <servlet-class>Controller.SearchControl</servlet-class>
+    </servlet>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>DetailControl</servlet-name>
+        <servlet-class>Controller.DetailControl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HomepageControl</servlet-name>
+        <servlet-class>Controller.HomepageControl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RightControl</servlet-name>
+        <servlet-class>Controller.RightControl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchControl</servlet-name>
+        <url-pattern>/SearchControl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DetailControl</servlet-name>
+        <url-pattern>/DetailControl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HomepageControl</servlet-name>
+        <url-pattern>/HomepageControl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RightControl</servlet-name>
+        <url-pattern>/RightControl</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+        <tracking-mode>COOKIE</tracking-mode>
+    </session-config>
+</web-app>
